@@ -1,0 +1,41 @@
+.container{
+    border:none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 10%;
+    margin: auto;
+
+}
+
+#photo{
+    border: none;
+    display: grid;
+    margin: auto;
+    border-right: solid 3px purple;
+    padding-left: 80px;
+    text-decoration: purple;
+    
+}
+#form{
+    border: none;
+    display: flex;
+    justify-content: right;
+    border-left: 150px;
+    
+}
+.button{
+        padding: 8px 24px;
+        border: none;;
+        color: white;
+        background-color:purple;
+}
+h5{
+    margin-right: 80px auto;
+        text-align: center;
+        font-size: 16px;
+        max-width: 600px;
+        position: relative;
+}
+.heading{
+    text-decoration: purple;
+}
